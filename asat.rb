@@ -2,27 +2,27 @@ class Asat < Formula
   desc "Terminal spreadsheet editor for Vim users — modal editing, 40+ formulas, CSV/XLSX/ODS"
   homepage "https://okt4v.github.io/ASAT/"
   license "GPL-3.0-or-later"
-  version "0.1.21"
+  version "0.1.22"
 
   on_macos do
     on_arm do
       url "https://github.com/okt4v/ASAT/releases/download/v#{version}/asat-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "77cdd0c6c10cfef025f441156f55ca03d1429c063962b7d8d2a1362c884b45e7"
+      sha256 "4297169225bcbe5b8e8e5310936eebe8cdbd6fc872b779b424236c1fc57a1ecd"
     end
     on_intel do
       url "https://github.com/okt4v/ASAT/releases/download/v#{version}/asat-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "31b764cb8496c437c4fc492e646bfbdaacf0d1772e9180511b8de9d3cba9ead8"
+      sha256 "26a876757748b266ac061494e29f91ac59c9c4489ec198ea66d8f80f9692c894"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/okt4v/ASAT/releases/download/v#{version}/asat-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f4d7ef16c1a2cc0942202ccc727eb0fbf87cac65646e2822a5ff9fdfc49c94d2"
+      sha256 "75773d8feb06e2664404bf77b5bff5c9deb5e357828cbd44bb2fea0e30d6d00c"
     end
     on_intel do
       url "https://github.com/okt4v/ASAT/releases/download/v#{version}/asat-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d2089311761edecea893e70f8397875bf790ecc4d87513cc4f9735d6d9a48c67"
+      sha256 "8e7902df98ffe1431b7280e2ebeea07674eca930d034927d2164fcfac8ed99b2"
     end
   end
 
